@@ -1,0 +1,19 @@
+Encapsulation : when an object only exposes the selected information.
+-> basically keeping mathods and variables in a single class.
+a) data hiding: hides internal data, access only through methods.
+b)access modifiers like public,private,protected.
+c) has getters and setters.
+
+ex: theres only minor difference between Encapsulation and abstraction is that abstraction only hides internal working of suppose switch but shows switch,while Encapsulation hides both switchand its implementation or working details.
+
+abstraction : Hides complex details to refuce complexity.
+
+Inheritance : entities can inherit attributes from other entities.
+
+Polymorphism : entities can have more than one form.
+
+Access modifiers: 
+public: can be accessed from anywhere class and packages.
+private:restrict access within class only.
+protected:allows access within same package and subclasses.
+default: allows access within same package.

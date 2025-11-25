@@ -1,0 +1,10 @@
+1)always compile in the parent folder and not the package folder: so do this 
+going to parent folder :=> cd "D:\JAVA\NEW PRACTICE"
+
+2) and then this for compiling the class.
+ex:javac Mypackage\Package1.java Mypackage\Access.java
+ex: javac Mypackage\gettersetter\Car.java Mypackage\gettersetter\Carrun.java
+
+3) then run this command for output:
+java Mypackage.Access (package folder name. file name)
+Mypackage.gettersetter.Carrun (always use . for acccesing anyting while run)

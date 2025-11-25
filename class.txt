@@ -1,0 +1,69 @@
+procedure oriented proggraming:
+
+object oriented proggraming:
+
+class is a blueprint . object are the real values
+new keyword is the builder which takes class as a blueprint and build a house for objects.
+new keyword allocates memory and initializes object based on class
+
+Car c = new Car();
+
+-> Car: class name
+c: referencce variable
+new : new keyword // its a java keyword used to instantialte a class
+Car() : constructor call
+
+this:=>
+--> The this keyword in Java refers to the current object of a class.
+1) Differentiate between instance variables and parameters
+When constructor or method parameters have the same name as instance variables, this clarifies which one you mean
+
+2)You can use this to explicitly call another method in the same class.
+ex: void show(){...}
+void display() {this.show()}
+
+3)this() can be used to call another constructor in the same class (constructor chaining).
+
+
+# Static:=>
+-> it belongs tp the class and not the individual instances. shared among all the instances of class.
+-> if we dont write static keyword then we have to create object of the class to acces there methods. with static keyword we can directly call the class methods.
+can be calles without creating object of the class
+-> we create main method as static because we dont want JVM to create object of the class. we want jvm to directly call the class.
+
+#constructor:=>
+-> it should have same name as class
+-> it should not have a return type, not even void
+-> it is automatically called when instance of the class is created.
+
+#Stack and Heap:=>
+stack: orderrd on top of each other
+->here method invocations and local variables live
+->method calling happens in call stack
+-> it is a static memory allocation
+ex: go(),drive(),main()
+-> object goes tos  heap and referencce goes to stack.
+
+heap: no ordering
+-> all the objects live each other
+ex: obj,a,b stores object and arrays
+-> it has a dynamic memoery allocation at runtime
+
+primitives: where i dont need to go to heap , dont need to make object
+memory is declared directly in compile time
+ex: int char float boolean
+
+non primitives: we have to create its object which is inside heap
+ex: class arr interface object
+- Memory: Variables store a reference (pointer) to an object in the heap.
+
+#garbageCollection:=>
+-> garbageCollector colects all the object which are of no use which is basically deallocating the memory
+-> its an automatic process
+
+-- if there are no referencces in stack which points to that particular object which means that object is present in am address which no one knows
+thus JVM collects such type of objects inside the heap.
+
+-- java uses generational garbageCollection strategy which dividws memoery into diffrent regions based on object ages(old,young,permanent).
+
+finalize: before an object is beign garbageCollected finalize() method mat be called giving an object a chance to clean up resources.
