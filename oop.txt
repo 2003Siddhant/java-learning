@@ -17,3 +17,7 @@ public: can be accessed from anywhere class and packages.
 private:restrict access within class only.
 protected:allows access within same package and subclasses.
 default: allows access within same package.
+
+getters and setters:
+always used to retreive private field values.
+allow for internal changes without affecting external interfaces.
