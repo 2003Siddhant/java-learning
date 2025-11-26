@@ -21,3 +21,14 @@ default: allows access within same package.
 getters and setters:
 always used to retreive private field values.
 allow for internal changes without affecting external interfaces.
+
+Inheritance:child class inherits properties of parent class.
+-> single : once child and one parent
+-> multiple: two parent class having a single child or child inherits properties of both the parent class. (java doesnt support it basically).
+-> multilevel:parent have a child. that child have an another child. like
+(parent) vehicle ->(child of vehicle) twoWheller ->(child of twoWheller) Motor
+-> hierarchial: parent class has 2 child and there is a hierarchy between child and parent.
+
+
+object class: its the parent of all the classes in java, basically top hierarchy.
+-> provides mrhtods like hashcode(), tostring() , equals().

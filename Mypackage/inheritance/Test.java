@@ -5,6 +5,10 @@ public class Test {
         Shape s = new Shape();
         TwoWheller t = new TwoWheller("TEsla", "elon musk");
 
+        System.out.println(s.hashCode());
+        System.out.println(s.toString());
+        System.out.println(s.getClass());
+
         s.commute();
         t.commute();
 
