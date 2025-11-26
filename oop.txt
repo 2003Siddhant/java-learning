@@ -32,3 +32,11 @@ Inheritance:child class inherits properties of parent class.
 
 object class: its the parent of all the classes in java, basically top hierarchy.
 -> provides mrhtods like hashcode(), tostring() , equals().
+1) equals: comapres using references
+
+
+nested and inner classes:
+nested : classes defined within another class divided into static and non static.
+static nested: act as a static member of the outer class. can access outer class static members.
+
+inner classes: associated with an instance of the outer class.can access all the members of the outer class.
