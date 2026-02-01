@@ -1,2 +1,5 @@
 here public can be accessed by anywhere inside and outside the class and packages.
 but the default access modifier can only be accessed inside the package and not by another package.
+
+always start with default class so we can laer increase there importance by giving private or public. 
+also always make sure that our variables remain private so that encapsulation should be achieved and implementation detials should be hidden.
