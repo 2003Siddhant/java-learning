@@ -1,0 +1,2 @@
+here public can be accessed by anywhere inside and outside the class and packages.
+but the default access modifier can only be accessed inside the package and not by another package.
